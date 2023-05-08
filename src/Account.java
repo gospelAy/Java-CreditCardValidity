@@ -19,11 +19,11 @@ public class Account {
     }
 
 
-    public int withdraw(int amount,int balance) {
+    public void withdraw(int amount) {
         if (amount > balance){
             System.out.println("Withdrawal amount exceeded account balance");
         }
+
         balance = balance - amount;
-        return balance;
     }
 }

@@ -16,7 +16,8 @@ public void checkThatObjectExist(){
 }
     @Test
     public void testThatWithdrawalCanBeMade(){
-    assertEquals(9000, account.withdraw(1000,10000));
+   account.withdraw(6000);
+   assertEquals(000.0, account.getBalance());
 
 
     }
